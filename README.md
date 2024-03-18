@@ -295,6 +295,8 @@ Ensuite utilisez la commande `composer require symfony/apache-pack` et vérifiez
 
 Si ce n’est pas le cas, lancez la commande `composer remove symfony/apache-pack` puis refaites le composer require.
 
+Une fois le fichier .htaccess présent : dans le menu à gauche, sélectionner **LiteSpeed** puis cliquer sur le bouton Update Config
+
 ### Troisième étape - Nettoyer votre cache
 
 Ici il s’agit de nettoyer votre cache de prod et non pas votre cache de dev. Pour ce faire lancez la commande suivante : `APP_ENV=prod APP_DEBUG=0 php bin/console cache:clear`
