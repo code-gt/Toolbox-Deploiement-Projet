@@ -12,6 +12,8 @@ La procédure est toujours la même pour ce type de déploiement. C'est la méth
 
 Sachez simplement que le déploiement est un domaine à part entière à ranger dans la famille "DevOps", qui est un métier à lui tout seul.
 
+Dans ce process, vous verrez l'adresse ip 57.128.65.58, Mais pour cetains d'entres vous, vous devrez utiliser 141.94.22.233 notre deuxieme server. ADAPTEZ VOUS !
+
 ⚠️ **Votre site ne fonctionnera probablement pas tout de suite exactement comme vous le souhaitez. Les déploiements comportent toujours leur lot de surprises, donc soyez prêt à faire du debug.**
 
 Nous allons vous donner un accès à la gestion du serveur avec runcloud
