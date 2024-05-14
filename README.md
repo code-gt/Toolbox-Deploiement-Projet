@@ -17,7 +17,7 @@ Dans ce process, nous utiliserons l'adresse ip **152.228.211.148**.
 ⚠️ **Votre site ne fonctionnera probablement pas tout de suite exactement comme vous le souhaitez. Les déploiements comportent toujours leur lot de surprises, donc soyez prêt à faire du debug.**
 
 Nous allons vous donner un accès à la gestion du serveur avec runcloud
-Veuillez commencer par créer un compte ici : 
+Veuillez commencer par vous connecter au serveur runcloud ici : 
 [https://manage.runcloud.io/auth/register](https://manage.runcloud.io/auth/register)
 
 Une fois cela fait vous allez pouvoir commencer à suivre les étapes de déploiement
