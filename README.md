@@ -125,7 +125,7 @@ Commençons la configuration de la webapp :
 Entrez votre **prénom-{nom-de-l’app}**
 Cochez la checkbox et choisissez votre utilisateur dans la liste déroulante
 
-**Nom de domaine :** 
+**Nom de domaine : {prenom-nom-de-l’app}.codegt.garage404.com ** 
 
 <img src="./imgs/Server-Web-App-Domain.png" alt="Server-web-app-domain-screenshot">
 
