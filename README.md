@@ -12,7 +12,7 @@ La procédure est toujours la même pour ce type de déploiement. C'est la méth
 
 Sachez simplement que le déploiement est un domaine à part entière à ranger dans la famille "DevOps", qui est un métier à lui tout seul.
 
-Dans ce process, vous verrez l'adresse ip **57.128.65.58**, Mais pour cetains d'entres vous, vous devrez utiliser **141.94.22.233** notre deuxieme server. **ADAPTEZ VOUS !**
+Dans ce process, nous utiliserons l'adresse ip **152.228.211.148**.
 
 ⚠️ **Votre site ne fonctionnera probablement pas tout de suite exactement comme vous le souhaitez. Les déploiements comportent toujours leur lot de surprises, donc soyez prêt à faire du debug.**
 
@@ -132,7 +132,7 @@ Cochez la checkbox et choisissez votre utilisateur dans la liste déroulante
 Paramétrer ensuite le nom de domaine 
 Pour cela cocher le bouton radio Use my own domain/ subdomain
 Puis entrez l’url de votre projet comme ceci : 
-**{prenom-nom-de-l’app}.projets.garage404.com**
+**{prenom-nom-de-l’app}.codegt.garage404.com**
 De préférence évitez les caractères spéciaux utilisez simplement des tiret a la place des espaces.
 
 **Certificat SSL :**
@@ -167,9 +167,9 @@ Cliquez ensuite sur **Update Linked Database**.
 Vous allez maintenant déployer les fichiers de votre projet sur la webapps 
 
 Vous avez le choix entre 2 méthodes SFTP ou SSH : 
-### Préférez l’utilisation du SSH !
-### Le SFTP créer une assez grosse charge sur le serveur. 
-### Runcloud ban automatiquement l’adresse ip qui est responsable de cette charge.
+### De manière général, préférez l’utilisation du SSH pour vos propres serveurs.
+### Nous utiliserons ici SFTP même si cette méthode entraîne une plus grosse charge sur le serveur. 
+### Runcloud peut ban automatiquement une adresse ip qui est responsable d'une charge serveur trop lourde.
 ### Il ban également l’adresse ip suite à 3 échecs de connexion 
 
 #### SFTP : 
@@ -184,7 +184,7 @@ L’adresse ip du serveur est visible à ce niveau la :
 <img src="./imgs/Server-IP-Address.png" alt="Server-IP-address-screenshot">
 
 Pour se connecter : 
-Nom d’hote : 57.128.65.58
+Nom d’hote : 152.228.211.148
 Port : 22
 Nom d’utilisateur : celui que vous avez créé à la première étape 
 Mot de passe : celui que vous avez créé à la première étape 
@@ -198,7 +198,7 @@ Sur la partie gauche aller chercher vos fichier faire un drag and drop de vos fi
 <img src="./imgs/FTP-File-Transfer.png" alt="FTP-file-transfer-screenshot">
 
 Une fois cela fait il va falloir modifier et corriger quelques fichiers notamment la connexion à votre base de donné : 
-Le host est toujour localhost ou 127.0.0.1 (ce sera le localhost du serveur) 
+Le host est toujours localhost ou 127.0.0.1 (ce sera le localhost du serveur) 
 Il vous faudra modifier le nom, le mot de passe, et le nom d’utilisateur de la base de données en mettant ceux que vous avez créé à la partie 2.
 
 
@@ -221,7 +221,7 @@ Sur linux tout peut se faire à l'aide du terminal (à l’aide la commande ssh)
 
 Une fois putty ouvert entrez votre nom d’utilisateur@l’adresse ip du serveur utilisez le port 22 
 
-Pour exemple hamza@57.128.65.58
+Pour exemple hamza@152.228.211.148
 
 Une fois rempli cliquez sur open un terminal s’ouvre alors sur une nouvelle fenêtre en vous demandant votre mot de passe. Entrez le mot de passe créer à l’étape 1.
 
