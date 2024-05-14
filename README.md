@@ -4,7 +4,7 @@
 
 Vous allez déployer votre projet sur serveur.
 
-Le processus est découpé en plusieurs étapes, au cours desquelles vous allez apprendre à utiliser un `Web Panel`, un logiciel `FTP` ou une connexion `SSH`, et l'import/export de base de données.
+Le processus est découpé en plusieurs étapes, au cours desquelles vous allez apprendre à utiliser un `Web Panel`, un logiciel `FTP` ou une connexion `SFTP`, et l'import/export de base de données.
 
 Ce savoir sera utile tout au long de votre vie de développeur. Ça fait partie de ces choses universelles, peu importe qu'on pratique du `Wordpress`, du `Symfony`, ou autre technologie web.
 
